@@ -67,7 +67,7 @@ if (!self.define) {
     });
   };
 }
-define(['./workbox-7f60d0f7'], (function (workbox) { 'use strict';
+define(['./workbox-5a5d9309'], (function (workbox) { 'use strict';
 
   self.skipWaiting();
   workbox.clientsClaim();
@@ -82,12 +82,12 @@ define(['./workbox-7f60d0f7'], (function (workbox) { 'use strict';
     "revision": "402b66900e731ca748771b6fc5e7a068"
   }, {
     "url": "index.html",
-    "revision": "6cc0bc884da75b77ff4c86b3247f4c12"
+    "revision": "cfbf222cf86dec2923ffbdeeb42c2b77"
   }, {
-    "url": "assets/index-B4hYadOt.css",
+    "url": "assets/index-Xl3W8Ghp.js",
     "revision": null
   }, {
-    "url": "assets/index-9jjrAttC.js",
+    "url": "assets/index-DZq8s-m1.css",
     "revision": null
   }, {
     "url": "icons/android-chrome-192x192.png",
