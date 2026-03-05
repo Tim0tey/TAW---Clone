@@ -1,11 +1,11 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from "vue"
 const students = ref([
-  { name: 'Miriam', grade: 10 }, 
-  { name: 'Leo', grade: 9 },
-  { name: 'Patrik', grade: 8 },
-  { name: 'Andrei', grade: 7 }
- ])
+  { name: "Miriam", grade: 10 },
+  { name: "Leo", grade: 9 },
+  { name: "Patrik", grade: 8 },
+  { name: "Andrei", grade: 7 }
+])
 </script>
 
 <template>

@@ -1,10 +1,10 @@
 <script setup>
-import { useCounter } from '@/stores/counter'
+import { useCounter } from "@/stores/counter"
 const counterStore = useCounter()
 
-const props = defineProps(['startCount'])
+const props = defineProps(["startCount"])
 
-import { ref } from 'vue'
+import { ref } from "vue"
 const counter = ref(props.startCount)
 const incrementCounter = () => {
   counter.value++
